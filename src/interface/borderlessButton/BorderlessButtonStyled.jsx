@@ -3,7 +3,16 @@ import Button from '@mui/material/Button';
 
 const ButtonStyled = styled(Button)`
 	&.MuiButton-root {
-		color: ${props => (props.isRed === true ? 'red' : '#252A34')};
+		color: ${ props => {
+				if (props.textcolor === 'black') {
+					return '#252A34'
+				} else if (props.textcolor === 'red') {
+					return '#eb4034'
+				} else if (props.textcolor === 'white') {
+					return '#FFFFFF'
+				}
+			}
+		};
 		font-family: Open Sans;
 		font-style: normal;
 		text-transform: none;

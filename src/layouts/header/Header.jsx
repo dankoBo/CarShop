@@ -1,13 +1,13 @@
 import AuthControls from '../../components/authControls/AuthControls';
 import HeaderLogo from '../../components/headerLogo/HeaderLogo';
-import HeaderNavButtons from '../../components/headerNavButtons/HeaderNavButtons';
+import NavButtons from '../../components/navButtons/NavButtons';
 import HeaderWrapperStyled from './HeaderStyled'
 
 function Header() {
 	return (
 		<HeaderWrapperStyled>
 			<HeaderLogo />
-			<HeaderNavButtons />
+			<NavButtons btn="black" />
 			<AuthControls />
 		</HeaderWrapperStyled>
 	);

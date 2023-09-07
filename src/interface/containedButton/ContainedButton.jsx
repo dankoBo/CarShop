@@ -1,10 +1,10 @@
-import { ButtonStyled } from './AuthButtonStyled'
+import { ButtonStyled } from './ContainedButtonStyled'
 
-function ContainedButton() {
+function ContainedButton(props) {
 	return (
 		<div>
 			<ButtonStyled variant='contained'>
-				Register
+				{props.name}
 			</ButtonStyled>
 		</div>
 	);

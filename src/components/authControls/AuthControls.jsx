@@ -5,8 +5,8 @@ import AuthControlsContainerStyled from './AuthControlsStyled'
 function AuthControls() {
 	return (
 		<AuthControlsContainerStyled>
-			<BorderlessButton isRed='true' name="LogIn"/>
-			<ContainedButton />
+			<BorderlessButton color='red' name="LogIn" />
+			<ContainedButton name="Register" />
 		</AuthControlsContainerStyled>
 	);
 }
