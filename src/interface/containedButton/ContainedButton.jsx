@@ -3,7 +3,7 @@ import { ButtonStyled } from './ContainedButtonStyled'
 function ContainedButton(props) {
 	return (
 		<div>
-			<ButtonStyled variant='contained'>
+			<ButtonStyled background={props.background} variant='contained'>
 				{props.name}
 			</ButtonStyled>
 		</div>

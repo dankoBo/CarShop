@@ -6,7 +6,7 @@ function AuthControls() {
 	return (
 		<AuthControlsContainerStyled>
 			<BorderlessButton color='red' name="LogIn" />
-			<ContainedButton name="Register" />
+			<ContainedButton background="red" name="Register" />
 		</AuthControlsContainerStyled>
 	);
 }

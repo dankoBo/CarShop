@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 const ButtonStyled = styled(Button)`
 	&.MuiButton-root {
 		width: 110px;
-		background-color: #FF2E63;
+		background-color: ${ props => props.background === 'red' ? '#FF2E63' : '#346CD9' };
 		text-transform: none;
 
 		font-family: Open Sans;
