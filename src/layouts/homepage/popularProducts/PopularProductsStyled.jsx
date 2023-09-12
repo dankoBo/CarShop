@@ -6,4 +6,9 @@ const PopularProductsWrapper = styled.div`
 	margin: 80px auto;
 `
 
-export { PopularProductsWrapper }
+const PopularProductsContainer = styled.div`
+	display: flex;
+	justify-content: space-between;
+`
+
+export { PopularProductsWrapper, PopularProductsContainer }
