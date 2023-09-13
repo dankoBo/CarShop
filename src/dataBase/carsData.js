@@ -1,36 +1,68 @@
-const carsData = [
+const popularCarsData = [
 	{
 		id: 1,
 		photo: "/src/assets/allCars/allCars_audi.png",
 		brand: "Audi S5 Coupe",
-		price: 15000,
-		discount: 8588,
+		price: "$15000",
+		discount: "$8588",
+		delivery: "Avaliable at your store",
 		availability: true
 	},
 	{
 		id: 2,
 		photo: "/src/assets/allCars/allCars_bugatti.png",
 		brand: "Bugatti Chiron",
-		price: 9588,
+		price: "$9588",
 		discount: false,
-		availability: false
+		delivery: "Avaliable at your store",
+		availability: true
 	},
 	{
 		id: 3,
 		photo: "/src/assets/allCars/allCars_mustang.png",
 		brand: "Ford Mustang",
-		price: 7688,
+		price: "$7688",
 		discount: false,
+		delivery: "Free Shipping",
 		availability: true
 	},
 	{
 		id: 4,
 		photo: "/src/assets/allCars/allCars_porsche.png",
 		brand: "Porsche 911 Carrera",
-		price: 12000,
-		discount: 10888,
+		price: "$12000",
+		discount: "$10888",
+		delivery: "Free Shipping",
 		availability: true
 	}
 ]
 
-export default carsData
+
+const latestCarsData = [
+	{
+		id: 1,
+		photo: "/src/assets/latestArticlesImages/ferrari_458.png",
+		brand: "Ferrari 458",
+		date: "12 Nowember 2020"
+	},
+	{
+		id: 2,
+		photo: "/src/assets/latestArticlesImages/aquila_gullwing.png",
+		brand: "Aquila Gulwing",
+		date: "9 Nowember 2020"
+	},
+	{
+		id: 3,
+		photo: "/src/assets/latestArticlesImages/audi_c5.png",
+		brand: "Audi S5 Coupe",
+		date: "5 Nowember 2020"
+	},
+	{
+		id: 4,
+		photo: "/src/assets/latestArticlesImages/ferrari_purosangue.png",
+		brand: "Ferrari Purosangue",
+		date: "25 September 2020"
+	},
+]
+
+export { popularCarsData, latestCarsData }

@@ -1,23 +1,25 @@
-import CarCard from '../../../components/carCard/CarCard';
-import { PopularProductsWrapper, PopularProductsContainer } from './PopularProductsStyled'
-
-import carsData from '../../../dataBase/carsData'
+import PopularCarCard from '../../../components/popularCarCard/PopularCarCard';
+import { PopularProductsWrapper, PopularProductsTitle, PopularProductsContainer } from './PopularProductsStyled'
+import { popularCarsData } from '../../../dataBase/carsData'
 
 function PopularProducts() {
     return (
         <PopularProductsWrapper>
-            <h2>Popular Products</h2>
+            <PopularProductsTitle>Popular Products</PopularProductsTitle>
             <PopularProductsContainer>
-                {carsData.map(car => (
-                    <CarCard 
-                        key={car.id}
-                        photo={car.photo}
-                        brand={car.brand}
-                        price={car.price}
-                        discount={car.discount}
-                        availability={car.availability}
-                    />
-                ))}
+                {
+					popularCarsData.map(car => (
+						<PopularCarCard 
+							key={car.id}
+							photo={car.photo}
+							brand={car.brand}
+							price={car.price}
+							discount={car.discount}
+							delivery={car.delivery}
+							availability={car.availability}
+						/>
+					))
+				}
             </PopularProductsContainer>
         </PopularProductsWrapper>
     );
