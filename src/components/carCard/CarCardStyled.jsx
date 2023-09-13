@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 const CarBrandStyled = styled.p`
 	width: 180px;
-	height: 25px;
 	color: #252A34;
 	font-family: Rajdhani;
 	font-size: 20px;

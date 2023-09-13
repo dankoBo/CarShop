@@ -4,7 +4,6 @@ import { PopularProductsWrapper, PopularProductsContainer } from './PopularProdu
 import carsData from '../../../dataBase/carsData'
 
 function PopularProducts() {
-	console.log(carsData);
     return (
         <PopularProductsWrapper>
             <h2>Popular Products</h2>

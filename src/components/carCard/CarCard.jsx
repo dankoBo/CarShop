@@ -21,7 +21,6 @@ function CarCard(props) {
 						<CarPriceDiscoundStyled>{props.discount}</CarPriceDiscoundStyled>
 						<CarPriceStyled>{props.price}</CarPriceStyled>
 					</CarPriceContainerStyled>
-					<p>Free Shipping</p>
 				</CardContent>
 			</CardActionArea>
 			<CardActions>
