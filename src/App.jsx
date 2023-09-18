@@ -1,11 +1,14 @@
 import AppWrapper from './AppStyled'
-import MainPage from './pages/MainPage'
-import { Routes, Route, Link } from 'react-router-dom'
+import Header from "./layouts/header/Header";
+import Footer from "./layouts/footer/Footer";
+import Routers from './routers/Routers'
 
 function App() {
 	return (
 		<AppWrapper>
-			<MainPage />
+			<Header />
+				<Routers />
+			<Footer />
 		</AppWrapper>
 	)
 }
