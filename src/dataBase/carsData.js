@@ -34,7 +34,52 @@ const popularCarsData = [
 		discount: "$10888",
 		delivery: "Free Shipping",
 		availability: true
-	}
+	},
+	{
+		id: 5,
+		photo: "/src/assets/allCars/allCars_audi.png",
+		brand: "Audi S5 Coupe",
+		price: "$15000",
+		discount: "$8588",
+		delivery: "Avaliable at your store",
+		availability: true
+	},
+	{
+		id: 6,
+		photo: "/src/assets/allCars/allCars_bugatti.png",
+		brand: "Bugatti Chiron",
+		price: "$9588",
+		discount: false,
+		delivery: "Avaliable at your store",
+		availability: true
+	},
+	{
+		id: 7,
+		photo: "/src/assets/allCars/allCars_mustang.png",
+		brand: "Ford Mustang",
+		price: "$7688",
+		discount: false,
+		delivery: "Free Shipping",
+		availability: true
+	},
+	{
+		id: 8,
+		photo: "/src/assets/allCars/allCars_porsche.png",
+		brand: "Porsche 911 Carrera",
+		price: "$12000",
+		discount: "$10888",
+		delivery: "Free Shipping",
+		availability: true
+	},
+	{
+		id: 9,
+		photo: "/src/assets/allCars/allCars_audi.png",
+		brand: "Audi S5 Coupe",
+		price: "$15000",
+		discount: "$8588",
+		delivery: "Avaliable at your store",
+		availability: true
+	},
 ]
 
 

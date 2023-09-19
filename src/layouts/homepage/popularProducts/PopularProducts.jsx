@@ -1,15 +1,19 @@
-import PopularCarCard from '../../../components/popularCarCard/PopularCarCard';
+import CarCard from '../../../components/carCard/CarCard';
 import { PopularProductsWrapper, PopularProductsTitle, PopularProductsContainer } from './PopularProductsStyled'
 import { popularCarsData } from '../../../dataBase/carsData'
 
+import CustomButton from '../../../interface/customButton/CustomButton';
+
 function PopularProducts() {
+	const firstFourCars = popularCarsData.slice(0, 4);
+
     return (
         <PopularProductsWrapper>
             <PopularProductsTitle>Popular Products</PopularProductsTitle>
             <PopularProductsContainer>
                 {
-					popularCarsData.map(car => (
-						<PopularCarCard 
+					firstFourCars.map(car => (
+						<CarCard 
 							key={car.id}
 							photo={car.photo}
 							brand={car.brand}
@@ -17,6 +21,7 @@ function PopularProducts() {
 							discount={car.discount}
 							delivery={car.delivery}
 							availability={car.availability}
+							button={<CustomButton />}
 						/>
 					))
 				}
