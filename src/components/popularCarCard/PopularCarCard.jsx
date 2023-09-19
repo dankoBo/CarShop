@@ -1,7 +1,6 @@
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea, CardActions } from '@mui/material';
-import CustomButton from '../../interface/customButton/CustomButton';
 import { CardStyled, CarBrandStyled, CarPriceContainerStyled, CarPriceStyled, CarPriceDiscoundStyled, CarPriceCrossedStyled, DeliveryStyled } from './PopularCarCardStyled'
 
 function PopularCarCard(props) {
