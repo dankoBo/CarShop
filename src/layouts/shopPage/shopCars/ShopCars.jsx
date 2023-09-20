@@ -18,6 +18,7 @@ function ShopCars() {
 								discount={car.discount}
 								delivery={car.delivery}
 								availability={car.availability}
+								carBrandMargin={10}
 								button={
 									<ContainedButton
 										name="Read more"

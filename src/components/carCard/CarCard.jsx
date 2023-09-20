@@ -14,7 +14,7 @@ function CarCard(props) {
 					alt="car"
 				/>
 				<CardContent>
-					<CarBrandStyled>{props.brand}</CarBrandStyled>
+					<CarBrandStyled $carBrandMargin={props.carBrandMargin}>{props.brand}</CarBrandStyled>
 					<CarPriceContainerStyled>
 					{
 						props.discount ? 

@@ -8,7 +8,7 @@ const CardStyled = styled(Card)`
 `
 
 const CarBrandStyled = styled.h2`
-	margin-bottom: 36px;
+	margin-bottom: ${props => props.$carBrandMargin}px;
 	width: 180px;
 	color: #252A34;
 	font-family: Rajdhani;
