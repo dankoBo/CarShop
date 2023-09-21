@@ -3,12 +3,10 @@ import Card from '@mui/material/Card';
 
 const CardStyled = styled(Card)`
 	width: 270px;
-	height: 325px;
 	position: relative;
 `
 
 const CarBrandStyled = styled.h2`
-	margin-bottom: ${props => props.$carBrandMargin}px;
 	width: 180px;
 	color: #252A34;
 	font-family: Rajdhani;
