@@ -4,6 +4,15 @@ import Card from '@mui/material/Card';
 const CardStyled = styled(Card)`
 	width: 270px;
 	position: relative;
+	margin: 10px 0;
+`
+
+const CardActionsStyled = styled.div`
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
 `
 
 const CarBrandStyled = styled.h2`
@@ -18,6 +27,7 @@ const CarBrandStyled = styled.h2`
 const CarPriceContainerStyled = styled.div`
 	width: 180px;
 	display: flex;
+	margin: ${props => props.$stylesMargin};
 `
 const CarPriceStyled = styled.p`
 	color: #252A34;
@@ -47,7 +57,7 @@ const CarPriceDiscoundStyled = styled.p`
 `
 
 const DeliveryStyled = styled.p`
-	margin-left: 5px;
+	margin-top: 0px;
 `
 
-export { CardStyled, CarBrandStyled, CarPriceContainerStyled, CarPriceStyled, CarPriceDiscoundStyled, CarPriceCrossedStyled, DeliveryStyled }
+export { CardActionsStyled, CardStyled, CarBrandStyled, CarPriceContainerStyled, CarPriceStyled, CarPriceDiscoundStyled, CarPriceCrossedStyled, DeliveryStyled }

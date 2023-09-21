@@ -3,7 +3,8 @@ import Button from '@mui/material/Button';
 
 const ButtonStyled = styled(Button)`
 	&.MuiButton-root {
-		width: 110px;
+		width: fit-content;
+		height: 40px;
 		background-color: ${ props => props.background === 'red' ? '#FF2E63' : '#346CD9' };
 		text-transform: none;
 

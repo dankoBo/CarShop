@@ -10,6 +10,7 @@ const ShopCarsWrapper = styled.div`
 const ShopCarsContainer = styled.div`
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 `
 
 export { ShopCarsWrapper, ShopCarsContainer }

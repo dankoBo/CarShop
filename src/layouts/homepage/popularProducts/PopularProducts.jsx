@@ -22,7 +22,7 @@ function PopularProducts() {
 							delivery={car.delivery}
 							availability={car.availability}
 							button={<CustomButton />}
-							carBrandMargin={36}
+							stylesMargin='38px 0px 17px'
 						/>
 					))
 				}

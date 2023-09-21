@@ -1,7 +1,7 @@
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import { CardActionArea, CardActions } from '@mui/material';
-import { CardStyled, CarBrandStyled, CarPriceContainerStyled, CarPriceStyled, CarPriceDiscoundStyled, CarPriceCrossedStyled, DeliveryStyled } from './CarCardStyled'
+import { CardActionArea } from '@mui/material';
+import { CardActionsStyled, CardStyled, CarBrandStyled, CarPriceContainerStyled, CarPriceStyled, CarPriceDiscoundStyled, CarPriceCrossedStyled, DeliveryStyled } from './CarCardStyled'
 
 function CarCard(props) {
 	return (
@@ -14,23 +14,24 @@ function CarCard(props) {
 					alt="car"
 				/>
 				<CardContent>
-					<CarBrandStyled $carBrandMargin={props.carBrandMargin}>{props.brand}</CarBrandStyled>
-					<CarPriceContainerStyled>
-					{
-						props.discount ? 
-								<>
-									<CarPriceDiscoundStyled>{props.discount}</CarPriceDiscoundStyled>
-									<CarPriceCrossedStyled>{props.price}</CarPriceCrossedStyled>
-								</> : 
-								<CarPriceStyled>{props.price}</CarPriceStyled> 
-					}
+					<CarBrandStyled>{props.brand}</CarBrandStyled>
+					<CarPriceContainerStyled $stylesMargin={props.stylesMargin}>
+						{
+							props.discount ? 
+									<>
+										<CarPriceDiscoundStyled>{props.discount}</CarPriceDiscoundStyled>
+										<CarPriceCrossedStyled>{props.price}</CarPriceCrossedStyled>
+									</> : 
+									<CarPriceStyled>{props.price}</CarPriceStyled> 
+						}
 					</CarPriceContainerStyled>
+					<DeliveryStyled>{props.delivery}</DeliveryStyled>
 				</CardContent>
 			</CardActionArea>
-			<CardActions>
-					<DeliveryStyled>{props.delivery}</DeliveryStyled>
-					{ props.button }
-			</CardActions>
+				<CardActionsStyled>
+					{props.button}
+				</CardActionsStyled>
+			
 		</CardStyled>
 	);
 }

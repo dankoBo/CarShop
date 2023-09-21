@@ -18,7 +18,7 @@ function ShopCars() {
 								discount={car.discount}
 								delivery={car.delivery}
 								availability={car.availability}
-								carBrandMargin={10}
+								stylesMargin='10px 0px'
 								button={
 									<ContainedButton
 										name="Read more"
