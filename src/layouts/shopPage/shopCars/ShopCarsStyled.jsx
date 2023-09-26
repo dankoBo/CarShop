@@ -11,4 +11,15 @@ const ShopCarsContainer = styled.div`
 	justify-content: space-between;
 `
 
-export { ShopCarsWrapper, ShopCarsContainer }
+const ShopCarsTitle = styled.h2`
+	width: 301px;
+	height: 57px;
+	color: #343434;
+	font-family: Rajdhani;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 700;
+	margin-bottom: 27px;
+`
+
+export { ShopCarsWrapper, ShopCarsContainer, ShopCarsTitle }

@@ -1,4 +1,4 @@
-import { ShopCarsWrapper, ShopCarsContainer} from './ShopCarsStyled'
+import { ShopCarsWrapper, ShopCarsContainer, ShopCarsTitle} from './ShopCarsStyled'
 import CarCard from '../../../components/carCard/CarCard'
 import ContainedButton from '../../../interface/containedButton/ContainedButton'
 import { popularCarsData } from '../../../dataBase/carsData'
@@ -6,7 +6,7 @@ import { popularCarsData } from '../../../dataBase/carsData'
 function ShopCars() {
 	return (
 		<ShopCarsWrapper>
-			<h2>Our shop</h2>
+			<ShopCarsTitle>Our shop</ShopCarsTitle>
 			<ShopCarsContainer>
 				{
 						popularCarsData.map(car => (

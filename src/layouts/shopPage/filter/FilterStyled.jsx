@@ -6,9 +6,61 @@ const FilterWrapper = styled.div`
 	border-radius: 10px;
 	box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.15);
 	padding: 27px 20px 30px;
-
-	border: 1px solid red;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+`
+const PriceFilterContainer = styled.div`
+	height: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 `
 
+const PriceFilterTitle = styled.h2`
+	color: #252A34;
+	font-family: Rajdhani;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: -0.2px;
+`
 
-export default FilterWrapper
+const PriceInputContainer = styled.div`
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+`
+
+const BrandsFilterTitle = styled.h2`
+	color: #252A34;
+	font-family: Rajdhani;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: -0.2px;
+`
+
+const BrandsFilterContainer = styled.div`
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+`
+const SearchFilterContainer = styled.div`
+	height: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+`
+
+const SearchFilterTitle = styled.h2`
+	color: #252A34;
+	font-family: Rajdhani;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: -0.2px;
+`
+
+export { FilterWrapper, PriceFilterContainer, PriceFilterTitle, PriceInputContainer, BrandsFilterContainer, BrandsFilterTitle, SearchFilterContainer, SearchFilterTitle }

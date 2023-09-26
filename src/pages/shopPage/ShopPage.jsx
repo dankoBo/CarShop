@@ -2,6 +2,7 @@ import { ShopPageContainer, FilterContactsContainer, OurShopPaginationContainer 
 import Contacts from "../../layouts/shopPage/contacts/Contacts";
 import Filter from "../../layouts/shopPage/filter/Filter";
 import ShopCars from '../../layouts/shopPage/shopCars/ShopCars';
+import PaginationShop from '../../components/pagination/Pagination';
 
 function ShopPage() {
 	return (
@@ -12,7 +13,7 @@ function ShopPage() {
 			</FilterContactsContainer>
 			<OurShopPaginationContainer>
 				<ShopCars />
-				Pgination component
+				<PaginationShop />
 			</OurShopPaginationContainer>
 		</ShopPageContainer>
 	);
