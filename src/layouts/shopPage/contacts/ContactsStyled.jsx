@@ -3,8 +3,6 @@ import styled from 'styled-components'
 const ContactsWrapper = styled.div`
 	width: 270px;
 	height: 140px;
-	
-	border: 1px solid green;
 `
 
 const TitleStyled = styled.h2`

@@ -14,13 +14,10 @@ const FilterContactsContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-
-	border: 1px solid yellow;
 `
 
 const OurShopPaginationContainer = styled.div`
 	height: 1334px;
-	border: 1px solid grey;
 `
 
 export { ShopPageContainer, FilterContactsContainer, OurShopPaginationContainer }
