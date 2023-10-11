@@ -1,5 +1,4 @@
 import BrandsFilter from '../../../components/brandsFilter/BrandsFilter';
-import PriceInputFilter from '../../../components/priceInputFilter/PriceInputFilter';
 import SearchInputFilter from '../../../components/searchInputFilter/SearchInputFilter';
 import { FilterWrapper, PriceFilterContainer, PriceFilterTitle, PriceInputContainer, BrandsFilterTitle, BrandsFilterContainer, SearchFilterContainer, SearchFilterTitle } from './FilterStyled'
 

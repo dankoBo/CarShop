@@ -26,12 +26,6 @@ const PriceFilterTitle = styled.h2`
 	letter-spacing: -0.2px;
 `
 
-const PriceInputContainer = styled.div`
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-`
-
 const BrandsFilterTitle = styled.h2`
 	color: #252A34;
 	font-family: Rajdhani;
