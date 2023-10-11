@@ -1,4 +1,3 @@
-import TextField from '@mui/material/TextField';
 import TextFieldStyled from './PriceInputFilterStyled'
 
 
@@ -11,6 +10,8 @@ function PriceInputFilter(props) {
 				label={props.label}
 				variant="outlined"
 				InputLabelProps={{ shrink: true }}
+				onChange={props.onChangeListener}
+				onBlur={props.filtering}
 			/>
 		</div>
 	);

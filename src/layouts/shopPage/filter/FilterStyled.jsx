@@ -57,4 +57,4 @@ const SearchFilterTitle = styled.h2`
 	letter-spacing: -0.2px;
 `
 
-export { FilterWrapper, PriceFilterContainer, PriceFilterTitle, PriceInputContainer, BrandsFilterContainer, BrandsFilterTitle, SearchFilterContainer, SearchFilterTitle }
+export { FilterWrapper, PriceFilterContainer, PriceFilterTitle, BrandsFilterContainer, BrandsFilterTitle, SearchFilterContainer, SearchFilterTitle }

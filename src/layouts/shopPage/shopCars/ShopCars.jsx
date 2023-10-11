@@ -1,32 +1,36 @@
 import { ShopCarsWrapper, ShopCarsContainer, ShopCarsTitle} from './ShopCarsStyled'
 import CarCard from '../../../components/carCard/CarCard'
 import ContainedButton from '../../../interface/containedButton/ContainedButton'
-import { popularCarsData } from '../../../dataBase/carsData'
+// import { popularCarsData } from '../../../dataBase/carsData'
 
-function ShopCars() {
+
+function ShopCars(props) {
+	
+
+
 	return (
 		<ShopCarsWrapper>
 			<ShopCarsTitle>Our shop</ShopCarsTitle>
 			<ShopCarsContainer>
 				{
-						popularCarsData.map(car => (
-							<CarCard 
-								key={car.id}
-								photo={car.photo}
-								brand={car.brand}
-								price={car.price}
-								discount={car.discount}
-								delivery={car.delivery}
-								availability={car.availability}
-								stylesMargin='10px 0px'
-								button={
-									<ContainedButton
-										name="Read more"
-										background="red"
-									/>
-								}
-							/>
-						))
+					props.filteredCars.map(car => (
+						<CarCard 
+							key={car.id}
+							photo={car.photo}
+							brand={car.brand}
+							price={car.price}
+							discount={car.discount}
+							delivery={car.delivery}
+							availability={car.availability}
+							stylesMargin='10px 0px'
+							button={
+								<ContainedButton
+									name="Read more"
+									background="red"
+								/>
+							}
+						/>
+					))
 				}
 			</ShopCarsContainer>
 		</ShopCarsWrapper>

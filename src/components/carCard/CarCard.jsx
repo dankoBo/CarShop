@@ -19,10 +19,10 @@ function CarCard(props) {
 						{
 							props.discount ? 
 									<>
-										<CarPriceDiscoundStyled>{props.discount}</CarPriceDiscoundStyled>
-										<CarPriceCrossedStyled>{props.price}</CarPriceCrossedStyled>
+										<CarPriceDiscoundStyled>${props.discount}</CarPriceDiscoundStyled>
+										<CarPriceCrossedStyled>${props.price}</CarPriceCrossedStyled>
 									</> : 
-									<CarPriceStyled>{props.price}</CarPriceStyled> 
+									<CarPriceStyled>${props.price}</CarPriceStyled> 
 						}
 					</CarPriceContainerStyled>
 					<DeliveryStyled>{props.delivery}</DeliveryStyled>
