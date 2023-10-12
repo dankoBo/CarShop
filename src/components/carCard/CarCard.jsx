@@ -1,7 +1,7 @@
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea } from '@mui/material';
-import { CardActionsStyled, CardStyled, CarBrandStyled, CarPriceContainerStyled, CarPriceStyled, CarPriceDiscoundStyled, CarPriceCrossedStyled, DeliveryStyled } from './CarCardStyled'
+import { CardActionsStyled, CardStyled, CarModelStyled, CarPriceContainerStyled, CarPriceStyled, CarPriceDiscoundStyled, CarPriceCrossedStyled, DeliveryStyled } from './CarCardStyled'
 
 function CarCard(props) {
 	return (
@@ -14,7 +14,7 @@ function CarCard(props) {
 					alt="car"
 				/>
 				<CardContent>
-					<CarBrandStyled>{props.brand}</CarBrandStyled>
+					<CarModelStyled>{props.model}</CarModelStyled>
 					<CarPriceContainerStyled $stylesMargin={props.stylesMargin}>
 						{
 							props.discount ? 

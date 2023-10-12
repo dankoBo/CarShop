@@ -2,7 +2,8 @@ const popularCarsData = [
 	{
 		id: 1,
 		photo: "/src/assets/allCars/allCars_audi.png",
-		brand: "Audi S5 Coupe",
+		brand: "Audi",
+		model: "Audi S5 Coupe",
 		price: 15000,
 		discount: 8588,
 		delivery: "Avaliable at your store",
@@ -11,7 +12,8 @@ const popularCarsData = [
 	{
 		id: 2,
 		photo: "/src/assets/allCars/allCars_bugatti.png",
-		brand: "Bugatti Chiron",
+		brand: "Bugatti",
+		model: "Bugatti Chiron",
 		price: 9588,
 		discount: false,
 		delivery: "Avaliable at your store",
@@ -20,7 +22,8 @@ const popularCarsData = [
 	{
 		id: 3,
 		photo: "/src/assets/allCars/allCars_mustang.png",
-		brand: "Ford Mustang",
+		brand: "Ford",
+		model: "Ford Mustang",
 		price: 7688,
 		discount: false,
 		delivery: "Free Shipping",
@@ -29,7 +32,8 @@ const popularCarsData = [
 	{
 		id: 4,
 		photo: "/src/assets/allCars/allCars_porsche.png",
-		brand: "Porsche 911 Carrera",
+		brand: "Porsche",
+		model: "Porsche 911 Carrera",
 		price: 12000,
 		discount: 10888,
 		delivery: "Free Shipping",
@@ -38,7 +42,8 @@ const popularCarsData = [
 	{
 		id: 5,
 		photo: "/src/assets/allCars/allCars_audi.png",
-		brand: "Audi S5 Coupe",
+		brand: "Audi",
+		model: "Audi S5 Coupe",
 		price: 15000,
 		discount: 8588,
 		delivery: "Avaliable at your store",
@@ -47,7 +52,8 @@ const popularCarsData = [
 	{
 		id: 6,
 		photo: "/src/assets/allCars/allCars_bugatti.png",
-		brand: "Bugatti Chiron",
+		brand: "Bugatti",
+		model: "Bugatti Chiron",
 		price: 9588,
 		discount: false,
 		delivery: "Avaliable at your store",
@@ -56,7 +62,8 @@ const popularCarsData = [
 	{
 		id: 7,
 		photo: "/src/assets/allCars/allCars_mustang.png",
-		brand: "Ford Mustang",
+		brand: "Ford",
+		model: "Ford Mustang",
 		price: 7688,
 		discount: false,
 		delivery: "Free Shipping",
@@ -65,7 +72,8 @@ const popularCarsData = [
 	{
 		id: 8,
 		photo: "/src/assets/allCars/allCars_porsche.png",
-		brand: "Porsche 911 Carrera",
+		brand: "Porsche",
+		model: "Porsche 911 Carrera",
 		price: 12000,
 		discount: 10888,
 		delivery: "Free Shipping",
@@ -74,7 +82,8 @@ const popularCarsData = [
 	{
 		id: 9,
 		photo: "/src/assets/allCars/allCars_audi.png",
-		brand: "Audi S5 Coupe",
+		brand: "Audi",
+		model: "Audi S5 Coupe",
 		price: 15000,
 		discount: 8588,
 		delivery: "Avaliable at your store",

@@ -1,6 +1,6 @@
 import SearchTextFieldStyled from './SearchInputFilterStyled';
 
-function SearchInputFilter() {
+function SearchInputFilter({ searchTerm, setSearchTerm }) {
 	return (
 		<div>
 			<SearchTextFieldStyled
@@ -8,6 +8,8 @@ function SearchInputFilter() {
 				type="text"
 				variant="outlined"
 				placeholder='Search by name'
+				value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
 			/>
 		</div>
 	);

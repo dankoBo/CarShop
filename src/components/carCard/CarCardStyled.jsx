@@ -15,7 +15,7 @@ const CardActionsStyled = styled.div`
 	padding-bottom: 20px;
 `
 
-const CarBrandStyled = styled.h2`
+const CarModelStyled = styled.h2`
 	width: 180px;
 	color: #252A34;
 	font-family: Rajdhani;
@@ -60,4 +60,4 @@ const DeliveryStyled = styled.p`
 	margin-top: 0px;
 `
 
-export { CardActionsStyled, CardStyled, CarBrandStyled, CarPriceContainerStyled, CarPriceStyled, CarPriceDiscoundStyled, CarPriceCrossedStyled, DeliveryStyled }
+export { CardActionsStyled, CardStyled, CarModelStyled, CarPriceContainerStyled, CarPriceStyled, CarPriceDiscoundStyled, CarPriceCrossedStyled, DeliveryStyled }
