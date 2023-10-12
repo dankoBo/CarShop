@@ -1,13 +1,9 @@
 import { ShopCarsWrapper, ShopCarsContainer, ShopCarsTitle} from './ShopCarsStyled'
 import CarCard from '../../../components/carCard/CarCard'
 import ContainedButton from '../../../interface/containedButton/ContainedButton'
-// import { popularCarsData } from '../../../dataBase/carsData'
 
 
 function ShopCars(props) {
-	
-
-
 	return (
 		<ShopCarsWrapper>
 			<ShopCarsTitle>Our shop</ShopCarsTitle>
