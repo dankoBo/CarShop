@@ -1,7 +1,9 @@
+import LogIn from '../layouts/logInPageLayout/LogIn'
+
 function LogInPage() {
 	return (
 		<div>
-			LOGIN
+			<LogIn />
 		</div>
 	);
 }

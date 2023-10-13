@@ -1,7 +1,7 @@
 import { ShopPageContainer, FilterContactsContainer, OurShopPaginationContainer } from './ShopPageStyled'
-import Contacts from "../../layouts/shopPage/contacts/Contacts";
-import Filter from "../../layouts/shopPage/filter/Filter";
-import ShopCars from '../../layouts/shopPage/shopCars/ShopCars';
+import Contacts from "../../layouts/shopPageLayout/contacts/Contacts";
+import Filter from "../../layouts/shopPageLayout/filter/Filter";
+import ShopCars from '../../layouts/shopPageLayout/shopCars/ShopCars';
 import PaginationShop from '../../components/pagination/Pagination';
 
 import { useState, useEffect } from 'react'

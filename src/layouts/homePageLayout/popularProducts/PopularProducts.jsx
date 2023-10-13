@@ -16,7 +16,7 @@ function PopularProducts() {
 						<CarCard 
 							key={car.id}
 							photo={car.photo}
-							brand={car.brand}
+							model={car.model}
 							price={car.price}
 							discount={car.discount}
 							delivery={car.delivery}
