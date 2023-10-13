@@ -29,7 +29,6 @@ function ShopPage() {
 		setFilteredCars(newFilteredCars);
 	}, [checked, minPrice, maxPrice, searchTerm]);
 
-
 	return (
 		<ShopPageContainer>
 			<FilterContactsContainer>
