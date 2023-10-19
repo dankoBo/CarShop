@@ -36,4 +36,4 @@ const ButtonWrapper = styled.div`
 	margin: 15px auto;
 `
 
-export { LogInWrapper, LogInTitle, InputName, ContainedButtonLogIn, ButtonWrapper }
+export { LogInWrapper, LogInTitle, InputName, ButtonWrapper }

@@ -1,7 +1,9 @@
+import Register from "../layouts/registerPageLayout/Register";
+
 function RegisterPage() {
 	return (
 		<div>
-			REGISTER
+			<Register />
 		</div>
 	);
 }

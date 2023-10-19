@@ -1,12 +1,11 @@
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
-import { Button, TextField } from '@mui/material';
 import Link from '@mui/material/Link';
-import ContainedButton from '../../interface/containedButton/ContainedButton'
 
 import LogInInput from '../../interface/logInInput/LogInInput'
 import LogInCheckbox from '../../interface/logInCheckbox/LogInCheckbox';
-import { LogInWrapper, LogInTitle, InputName, ContainedButtonLogIn, ButtonWrapper } from './LogInStyled';
+import ContainedButton from '../../interface/containedButton/ContainedButton'
+import { LogInWrapper, LogInTitle, InputName, ButtonWrapper } from './LogInStyled';
 
 // Схема валідації для полів форми
 const validationSchema = Yup.object().shape({
@@ -56,7 +55,7 @@ const LogIn = () => {
 					<Link href="#" underline='none'>Forgot your password?</Link>
 					<LogInCheckbox />
 					<ButtonWrapper>
-						<ContainedButtonLogIn name="Log In" background="red" />
+						<ContainedButton name="Log In" background="red" />
 					</ButtonWrapper>
 			</form>
 		</LogInWrapper>
