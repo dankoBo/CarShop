@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import ContainedButton from '../../interface/containedButton/ContainedButton'
 
 const LogInWrapper = styled.div`
 	width: 417px;
@@ -32,9 +31,6 @@ const InputName = styled.p`
 	letter-spacing: -0.2px;
 `
 
-const ContainedButtonLogIn = styled(ContainedButton)`
-	margin-left: 200px;
-`
 const ButtonWrapper = styled.div`
 	width: fit-content;
 	margin: 15px auto;
