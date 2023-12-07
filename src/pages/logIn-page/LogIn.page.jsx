@@ -5,7 +5,7 @@ import Link from '@mui/material/Link';
 import LogInInput from '../../interface/logInInput/LogInInput'
 import LogInCheckbox from '../../interface/logInCheckbox/LogInCheckbox';
 import ContainedButton from '../../interface/containedButton/ContainedButton'
-import { LogInWrapper, LogInTitle, InputName, ButtonWrapper } from './LogInStyled';
+import { LogInWrapper, LogInTitle, InputName, ButtonWrapper } from './LogIn.page.styled';
 
 // Схема валідації для полів форми
 const validationSchema = Yup.object().shape({
@@ -38,9 +38,11 @@ const LogIn = () => {
 						onChange={formik.handleChange}
 						value={formik.values.email}
 					/>
-					{formik.errors.email && formik.touched.email && (
-						<div style={{ color: 'red' }}>{formik.errors.email}</div>
-					)}
+					{
+						formik.errors.email && formik.touched.email && (
+							<div style={{ color: 'red' }}>{formik.errors.email}</div>
+						)
+					}
 					<InputName>Password</InputName>
 					<LogInInput
 						name="password"
@@ -49,9 +51,11 @@ const LogIn = () => {
 						onChange={formik.handleChange}
 						value={formik.values.password}
 					/>
-					{formik.errors.password && formik.touched.password && (
-						<div style={{ color: 'red' }}>{formik.errors.password}</div>
-					)}
+					{
+						formik.errors.password && formik.touched.password && (
+							<div style={{ color: 'red' }}>{formik.errors.password}</div>
+						)
+					}
 					<Link href="#" underline='none'>Forgot your password?</Link>
 					<LogInCheckbox />
 					<ButtonWrapper>

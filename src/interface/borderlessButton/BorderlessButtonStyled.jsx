@@ -22,8 +22,7 @@ const ButtonStyled = styled(Button)`
 		font-weight: 600;
 		font-size: 14px;
 		&:hover {
-			font-weight: 900;
-			font-size: 16px;
+			color: #eb4034;
 		}
 	}
 `

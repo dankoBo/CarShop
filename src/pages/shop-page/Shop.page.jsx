@@ -1,14 +1,12 @@
-import { ShopPageContainer, FilterContactsContainer, OurShopPaginationContainer } from './ShopPageStyled'
-import Contacts from "../../layouts/shopPageLayout/contacts/Contacts";
-import Filter from "../../layouts/shopPageLayout/filter/Filter";
-import ShopCars from '../../layouts/shopPageLayout/shopCars/ShopCars';
+import { ShopPageContainer, FilterContactsContainer, OurShopPaginationContainer } from './Shop.page.styled'
+import Contacts from "./contacts/Contacts";
+import Filter from "./filter/Filter";
+import ShopCars from './shopCars/ShopCars';
 import PaginationShop from '../../components/pagination/Pagination';
-
 import { useState, useEffect } from 'react'
 import { popularCarsData } from '../../dataBase/carsData'
 
-function ShopPage() {
-
+function Shop() {
 	const [minPrice, setMinPrice] = useState(0);
 	const [maxPrice, setMaxPrice] = useState(Infinity);
 	const [filteredCars, setFilteredCars] = useState(popularCarsData);
@@ -50,4 +48,4 @@ function ShopPage() {
 	);
 }
 
-export default ShopPage;
+export default Shop;

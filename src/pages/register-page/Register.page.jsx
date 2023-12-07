@@ -4,7 +4,7 @@ import { FormControlLabel, Radio, RadioGroup, FormControl, Link } from '@mui/mat
 import RegisterMultiInput from '../../interface/registerMultiInput/RegisterMultiInput'
 import RegisterEmailInput from '../../interface/registerEmailInput/RegisterEmailInput'
 import ContainedButton from '../../interface/containedButton/ContainedButton'
-import { RegisterWrapper, RegisterTitle, InputName, FirstLastNamesContainer, PasswordContainer, ButtonWrapper, TermsPolicyContainer } from './RegisterStyled'
+import { RegisterWrapper, RegisterTitle, InputName, FirstLastNamesContainer, PasswordContainer, ButtonWrapper, TermsPolicyContainer } from './Register.page.styled'
 
 function Register() {
 	const formik = useFormik({

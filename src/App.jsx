@@ -1,13 +1,13 @@
 import AppWrapper from './AppStyled'
-import Header from "./layouts/header/Header";
-import Footer from "./layouts/footer/Footer";
+import Header from './components/header/Header'
+import Footer from './components/footer/Footer'
 import Routers from './routers/Routers'
 
 function App() {
 	return (
 		<AppWrapper>
 			<Header />
-				<Routers />
+			<Routers />
 			<Footer />
 		</AppWrapper>
 	)
