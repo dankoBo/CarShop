@@ -11,7 +11,6 @@ function SearchInputFilter({ searchTerm, setSearchTerm }) {
 				value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
 			/>
-		</div>
 	);
 }
 

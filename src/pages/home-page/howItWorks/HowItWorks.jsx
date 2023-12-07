@@ -1,6 +1,5 @@
 import HowToStep from "../../../components/howToStep/HowToStep";
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
-import { HowItWorksWrapper, HowItWorksTitle, HowItWorksSteps } from './HowItWorksStyled'
 
 function HowItWorks() {
 	return (

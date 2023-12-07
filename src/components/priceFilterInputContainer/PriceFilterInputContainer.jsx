@@ -1,5 +1,4 @@
 import PriceInputFilter from '../../interface/priceInputFilter/PriceInputFilter'
-import PriceInputContainer from './PriceInputFilterContainerStyled'
 
 function PriceInputFilterContainer({ setMinPrice, setMaxPrice }) {
 	function saveMinPrice(event) {

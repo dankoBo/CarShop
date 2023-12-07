@@ -1,6 +1,5 @@
 import BorderlessButton from '../../interface/borderlessButton/BorderlessButton'
 import ContainedButton from '../../interface/containedButton/ContainedButton';
-import AuthControlsContainerStyled from './AuthControlsStyled'
 import { Link } from 'react-router-dom'
 
 function AuthControls() {

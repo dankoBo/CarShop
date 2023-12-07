@@ -3,7 +3,6 @@ import { TextFieldStyled } from './RegisterMultiInputStyled'
 function RegisterMultiInput(props) {
 	const { name, value, onChange, error, helperText } = props;
 	return (
-		<div>
 			<TextFieldStyled
 				name={name}
 				value={value}
@@ -11,7 +10,6 @@ function RegisterMultiInput(props) {
 				error={error}
 				helperText={helperText}
 			/>
-		</div>
 	);
 }
 

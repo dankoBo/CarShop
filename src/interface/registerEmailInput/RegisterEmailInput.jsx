@@ -4,7 +4,6 @@ function RegisterEmailInput(props) {
 	const { name, value, onChange, error, helperText } = props;
 
 	return (
-		<div>
 			<TextFieldStyled
 				name={name}
 				value={value}
@@ -12,7 +11,6 @@ function RegisterEmailInput(props) {
 				error={error}
 				helperText={helperText}
 			/>
-		</div>
 	);
 }
 

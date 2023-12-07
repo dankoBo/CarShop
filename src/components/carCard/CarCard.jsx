@@ -1,7 +1,6 @@
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea } from '@mui/material';
-import { CardActionsStyled, CardStyled, CarModelStyled, CarPriceContainerStyled, CarPriceStyled, CarPriceDiscoundStyled, CarPriceCrossedStyled, DeliveryStyled } from './CarCardStyled'
 
 function CarCard(props) {
 	return (
