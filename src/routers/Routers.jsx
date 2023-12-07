@@ -6,14 +6,12 @@ import RegisterPage from '../pages/RegisterPage'
 
 function Routers() {
 	return (
-		<div>
 			<Routes>
-				<Route path='/' element={ <HomePage /> } />
-				<Route path='/shop' element={ <ShopPage /> } />
-				<Route path='/logIn' element={ <LogInPage /> } />
-				<Route path='/register' element={ <RegisterPage /> } />
-			</Routes>
-		</div>
+			<Route path='/' element={ <Home /> } />
+			<Route path='/shop' element={ <ShopPage /> } />
+			<Route path='/logIn' element={ <LogInPage /> } />
+			<Route path='/register' element={ <RegisterPage /> } />
+		</Routes>
 	);
 }
 
