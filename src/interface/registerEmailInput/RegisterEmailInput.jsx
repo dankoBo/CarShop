@@ -1,4 +1,4 @@
-import { TextFieldStyled } from './RegisterEmailInputStyled'
+import { TextFieldStyled } from './RegisterEmailInput.styled'
 
 function RegisterEmailInput(props) {
 	const { name, value, onChange, error, helperText } = props;

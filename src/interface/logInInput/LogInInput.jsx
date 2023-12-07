@@ -1,11 +1,7 @@
-import { TextFieldStyled } from './LogInInputStyled'
+import { TextFieldStyled } from './LogInInput.styled'
 
 function LogInInput() {
-	return (
-		<div>
-			<TextFieldStyled />
-		</div>
-	);
+	return <TextFieldStyled />
 }
 
 export default LogInInput;

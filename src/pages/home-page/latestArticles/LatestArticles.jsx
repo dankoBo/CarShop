@@ -1,6 +1,6 @@
+import { LatestArticlesWrapper, LatestArticleTitle, LatestArticlesContainer } from './LatestArticles.styled'
 import LatestCarCard from '../../../components/latestCarCard/LatestCarCard';
-import { latestCarsData } from '../../../dataBase/carsData'
-import { LatestArticlesWrapper, LatestArticleTitle, LatestArticlesContainer } from './LatestArticlesStyled'
+import { latestCarsData } from '../../../data/carsData'
 
 function LatestArticles() {
 	return (
@@ -15,7 +15,8 @@ function LatestArticles() {
 								brand={car.brand}
 								date={car.date}
 							/>
-						))
+						)
+					)
 				}
 			</LatestArticlesContainer>
 		</LatestArticlesWrapper>

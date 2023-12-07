@@ -6,4 +6,4 @@ const ButtonsContainer = styled.div`
 	justify-content: space-between;
 `
 
-export default ButtonsContainer
+export { ButtonsContainer }

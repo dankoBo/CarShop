@@ -1,4 +1,4 @@
-import TextFieldStyled from './PriceInputFilterStyled'
+import { TextFieldStyled } from './PriceInputFilter.styled'
 
 
 function PriceInputFilter(props) {

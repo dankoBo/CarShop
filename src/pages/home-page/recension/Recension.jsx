@@ -1,4 +1,9 @@
-import { RecensionWrapper, RecensionTextContainer, RecensionText, RecensionTextAuthor } from './RecensionStyled'
+import { 
+	RecensionWrapper, 
+	RecensionTextContainer, 
+	RecensionText, 
+	RecensionTextAuthor 
+} from './Recension.styled'
 import dannyCh from '../../../assets/responseImages/danny_churchman.png'
 
 function Recension() {
@@ -17,4 +22,4 @@ function Recension() {
 	);
 }
 
-export default Recension;
+export default Recension

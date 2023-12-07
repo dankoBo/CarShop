@@ -1,4 +1,4 @@
-import ButtonStyled from './BorderlessButtonStyled'
+import { ButtonStyled } from './BorderlessButton.styled'
 
 function BorderlessButton(props) {
 	return (

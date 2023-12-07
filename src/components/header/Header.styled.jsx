@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const HeaderWrapperStyled = styled.div`
+const Container = styled.div`
 	width: 1170px;
 	height: 60px;
 	margin: 0 auto;
@@ -9,4 +9,4 @@ const HeaderWrapperStyled = styled.div`
 	justify-content: space-between;
 `
 
-export default HeaderWrapperStyled
+export { Container }

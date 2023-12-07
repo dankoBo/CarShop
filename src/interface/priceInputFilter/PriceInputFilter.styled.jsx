@@ -8,4 +8,4 @@ const TextFieldStyled = styled(TextField)`
 	}
 `
 
-export default TextFieldStyled
+export { TextFieldStyled }

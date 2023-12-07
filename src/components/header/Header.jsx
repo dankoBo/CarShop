@@ -1,15 +1,15 @@
-import AuthControls from '../../components/authControls/AuthControls';
-import HeaderLogo from '../../components/headerLogo/HeaderLogo';
-import NavButtons from '../../components/navButtons/NavButtons';
-import HeaderWrapperStyled from './HeaderStyled'
+import { Container } from './Header.styled'
+import HeaderLogo from '../../interface/headerLogo/HeaderLogo'
+import NavButtons from '../../components/navButtons/NavButtons'
+import AuthControls from '../../components/authControls/AuthControls'
 
 function Header() {
 	return (
-		<HeaderWrapperStyled>
+		<Container>
 			<HeaderLogo />
 			<NavButtons btn="black" />
 			<AuthControls />
-		</HeaderWrapperStyled>
+		</Container>
 	);
 }
 

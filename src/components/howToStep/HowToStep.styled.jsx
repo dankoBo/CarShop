@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const HowToStepWrapper = styled.div`
+const Container = styled.div`
 	width: 250px;
 	height: 258px;
 	text-align: center;
@@ -24,4 +24,4 @@ const HowToStepSubtitle = styled.p`
 	font-weight: 400;
 `
 
-export { HowToStepWrapper, HowToStepTitle, HowToStepSubtitle }
+export { Container, HowToStepTitle, HowToStepSubtitle }

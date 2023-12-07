@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Card from '@mui/material/Card';
+import Card from '@mui/material/Card'
 
 const CardStyled = styled(Card)`
 	width: 270px;
@@ -60,4 +60,13 @@ const DeliveryStyled = styled.p`
 	margin-top: 0px;
 `
 
-export { CardActionsStyled, CardStyled, CarModelStyled, CarPriceContainerStyled, CarPriceStyled, CarPriceDiscoundStyled, CarPriceCrossedStyled, DeliveryStyled }
+export {
+	CardActionsStyled, 
+	CardStyled, 
+	CarModelStyled, 
+	CarPriceContainerStyled, 
+	CarPriceStyled, 
+	CarPriceDiscoundStyled, 
+	CarPriceCrossedStyled, 
+	DeliveryStyled 
+}

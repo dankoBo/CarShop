@@ -4,7 +4,7 @@ import Filter from "./filter/Filter";
 import ShopCars from './shopCars/ShopCars';
 import PaginationShop from '../../components/pagination/Pagination';
 import { useState, useEffect } from 'react'
-import { popularCarsData } from '../../dataBase/carsData'
+import { popularCarsData } from '../../data/carsData'
 
 function Shop() {
 	const [minPrice, setMinPrice] = useState(0);

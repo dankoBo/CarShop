@@ -8,7 +8,7 @@ const BannerWrapper = styled.div`
 	margin: 50px auto;
 	display: flex;
 `
-const TitleWithButtonStyled = styled.div`
+const TitleWithButton = styled.div`
 	width: 400px;
 	height: 212px;
 	margin-top: 100px;
@@ -27,7 +27,7 @@ const TitleRed = styled.span`
 	font-weight: 700;
 `
 
-const BannerTitleStyled = styled.h2`
+const BannerTitle = styled.h2`
 	width: 448px;
 	height: 129px;
 	color: #343434;
@@ -46,4 +46,4 @@ const BannerImageWrapper = styled.div`
 	z-index: 1;
 `
 
-export { BannerWrapper, BannerTitleStyled, TitleRed, BannerImageWrapper, TitleWithButtonStyled }
+export { BannerWrapper, BannerTitle, TitleRed, BannerImageWrapper, TitleWithButton }

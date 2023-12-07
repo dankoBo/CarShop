@@ -1,3 +1,4 @@
+import { Container } from './PriceInputFilterContainer.styled'
 import PriceInputFilter from '../../interface/priceInputFilter/PriceInputFilter'
 
 function PriceInputFilterContainer({ setMinPrice, setMaxPrice }) {
@@ -10,7 +11,7 @@ function PriceInputFilterContainer({ setMinPrice, setMaxPrice }) {
 	}
 
 	return (
-		<PriceInputContainer>
+		<Container>
 			<PriceInputFilter
 				label="min"
 				onChangeListener={saveMinPrice}
@@ -20,7 +21,7 @@ function PriceInputFilterContainer({ setMinPrice, setMaxPrice }) {
 				label="max" 
 				onChangeListener={saveMaxPrice}
 			/>
-		</PriceInputContainer>
+		</Container>
 	);
 }
 

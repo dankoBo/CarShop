@@ -1,18 +1,24 @@
-import { BannerWrapper, TitleWithButtonStyled, BannerTitleStyled, BannerImageWrapper, TitleRed } from './BannerStyled'
+import { 
+	BannerWrapper, 
+	TitleWithButton, 
+	BannerTitle, 
+	BannerImageWrapper, 
+	TitleRed 
+} from './Banner.styled'
 import ContainedButton from '../../../interface/containedButton/ContainedButton'
 
 function Banner() {
 	return (
 		<BannerWrapper>
-			<TitleWithButtonStyled>
-				<BannerTitleStyled>
+			<TitleWithButton>
+				<BannerTitle>
 					Could you be our <TitleRed>next winner?</TitleRed>
-				</BannerTitleStyled>
+				</BannerTitle>
 				<ContainedButton name="Enter now" />
-			</TitleWithButtonStyled>
+			</TitleWithButton>
 			<BannerImageWrapper />
 		</BannerWrapper>
-	);
+	)
 }
 
-export default Banner;
+export default Banner

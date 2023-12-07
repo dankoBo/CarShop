@@ -1,6 +1,10 @@
+import { 
+	PopularProductsWrapper, 
+	PopularProductsTitle, 
+	PopularProductsContainer 
+} from './PopularProducts.styled'
 import CarCard from '../../../components/carCard/CarCard';
-import { PopularProductsWrapper, PopularProductsTitle, PopularProductsContainer } from './PopularProductsStyled'
-import { popularCarsData } from '../../../dataBase/carsData'
+import { popularCarsData } from '../../../data/carsData'
 
 import CustomButton from '../../../interface/customButton/CustomButton';
 

@@ -4,4 +4,4 @@ const LogoContainerStyled = styled.div`
 	width: 137px;
 `
 
-export default LogoContainerStyled
+export { LogoContainerStyled }

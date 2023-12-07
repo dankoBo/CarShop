@@ -1,9 +1,8 @@
-import SearchTextFieldStyled from './SearchInputFilterStyled';
+import { TextFieldStyled } from './SearchInputFilter.styled';
 
 function SearchInputFilter({ searchTerm, setSearchTerm }) {
 	return (
-		<div>
-			<SearchTextFieldStyled
+			<TextFieldStyled
 				id="outlined-basic"
 				type="text"
 				variant="outlined"

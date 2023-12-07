@@ -1,7 +1,8 @@
-import { TextFieldStyled } from './RegisterMultiInputStyled'
+import { TextFieldStyled } from './RegisterMultiInput.styled'
 
 function RegisterMultiInput(props) {
-	const { name, value, onChange, error, helperText } = props;
+	const { name, value, onChange, error, helperText } = props
+	
 	return (
 			<TextFieldStyled
 				name={name}

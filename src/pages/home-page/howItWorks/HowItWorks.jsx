@@ -1,5 +1,10 @@
-import HowToStep from "../../../components/howToStep/HowToStep";
-import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import { 
+	HowItWorksWrapper, 
+	HowItWorksTitle, 
+	HowItWorksSteps 
+} from './HowItWorks.styled'
+import HowToStep from "../../../components/howToStep/HowToStep"
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt'
 
 function HowItWorks() {
 	return (
@@ -36,4 +41,4 @@ function HowItWorks() {
 	);
 }
 
-export default HowItWorks;
+export default HowItWorks

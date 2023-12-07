@@ -1,14 +1,14 @@
-import { HowToStepWrapper, HowToStepTitle, HowToStepSubtitle } from './HowToStepStyled'
+import { Container, HowToStepTitle, HowToStepSubtitle } from './HowToStep.styled'
 
 function HowToStep(props) {
 	return (
-		<HowToStepWrapper>
+		<Container>
 			<div>
 				<img src={props.icon} alt="icon" />
 			</div>
 			<HowToStepTitle>{props.title}</HowToStepTitle>
 			<HowToStepSubtitle>{props.subtitle}</HowToStepSubtitle>
-		</HowToStepWrapper>
+		</Container>
 	);
 }
 

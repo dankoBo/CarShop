@@ -1,6 +1,7 @@
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import { CardActionArea } from '@mui/material';
+import { CarBrandStyled, CarDateStyled, CardStyled } from './LatestCarCard.styled'
+import CardContent from '@mui/material/CardContent'
+import CardMedia from '@mui/material/CardMedia'
+import { CardActionArea } from '@mui/material'
 
 function LatestCarCard(props) {
 	return (

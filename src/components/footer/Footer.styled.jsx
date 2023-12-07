@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const FooterWrapperStyled = styled.div`
+const Container = styled.div`
 	height: 60px;
 	margin: 0 auto;
 	padding: 0 55px;
@@ -10,4 +10,4 @@ const FooterWrapperStyled = styled.div`
 	justify-content: space-between;
 `
 
-export default FooterWrapperStyled
+export { Container }

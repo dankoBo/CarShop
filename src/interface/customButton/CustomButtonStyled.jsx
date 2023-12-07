@@ -12,4 +12,4 @@ const ButtonStyled = styled.button`
 	background-color: #346CD9;
 `
 
-export default ButtonStyled
+export { ButtonStyled }
