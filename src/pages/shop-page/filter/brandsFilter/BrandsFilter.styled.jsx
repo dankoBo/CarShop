@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
-const CheckboxContainer = styled.div`
+const Container = styled.div`
 	display: flex;
 	flex-direction: column;
 `
 
-export { CheckboxContainer }
+export { Container }

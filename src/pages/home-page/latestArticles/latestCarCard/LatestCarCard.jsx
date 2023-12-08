@@ -1,7 +1,12 @@
-import { CarBrandStyled, CarDateStyled, CardStyled } from './LatestCarCard.styled'
-import CardContent from '@mui/material/CardContent'
-import CardMedia from '@mui/material/CardMedia'
+import { 
+	CardStyled,
+	CarBrand, 
+	CarDate
+} from './LatestCarCard.styled'
+
 import { CardActionArea } from '@mui/material'
+import CardMedia from '@mui/material/CardMedia'
+import CardContent from '@mui/material/CardContent'
 
 function LatestCarCard(props) {
 	return (
@@ -14,8 +19,8 @@ function LatestCarCard(props) {
 					alt="car"
 				/>
 				<CardContent>
-					<CarBrandStyled>{props.brand}</CarBrandStyled>
-					<CarDateStyled>{props.date}</CarDateStyled>
+					<CarBrand>{props.brand}</CarBrand>
+					<CarDate>{props.date}</CarDate>
 				</CardContent>
 			</CardActionArea>
 		</CardStyled>

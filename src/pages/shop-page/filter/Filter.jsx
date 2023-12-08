@@ -1,10 +1,20 @@
-import BrandsFilter from '../../../components/brandsFilter/BrandsFilter';
-import SearchInputFilter from '../../../components/searchInputFilter/SearchInputFilter';
+import { 
+	Container, 
+	PriceFilterContainer, 
+	PriceFilterTitle,  
+	BrandsFilterTitle, 
+	BrandsFilterContainer, 
+	SearchFilterContainer, 
+	SearchFilterTitle 
+} from './FilterStyled'
+
+import BrandsFilter from './brandsFilter/BrandsFilter';
+import SearchInputFilter from './searchInputFilter/SearchInputFilter';
 import PriceFilterInputContainer from '../../../components/priceFilterInputContainer/PriceFilterInputContainer'
 
 function Filter( {setMinPrice, setMaxPrice, checked, setChecked, searchTerm, setSearchTerm} ) {
 	return (
-		<FilterWrapper>
+		<Container>
 			<PriceFilterContainer>
 				<PriceFilterTitle>Price</PriceFilterTitle>
 				<PriceFilterInputContainer setMinPrice={setMinPrice} setMaxPrice={setMaxPrice}/>
@@ -17,7 +27,7 @@ function Filter( {setMinPrice, setMaxPrice, checked, setChecked, searchTerm, set
 				<SearchFilterTitle>Search</SearchFilterTitle>
 				<SearchInputFilter searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
 			</SearchFilterContainer>
-		</FilterWrapper>
+		</Container>
 	);
 }
 

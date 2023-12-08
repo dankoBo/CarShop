@@ -1,20 +1,19 @@
 import { 
-	PopularProductsWrapper, 
-	PopularProductsTitle, 
-	PopularProductsContainer 
+	Container,
+	Title,
+	CardContainer, 
 } from './PopularProducts.styled'
-import CarCard from '../../../components/carCard/CarCard';
+import CarCard from '../../../components/carCard/CarCard'
 import { popularCarsData } from '../../../data/carsData'
-
-import CustomButton from '../../../interface/customButton/CustomButton';
+import CustomButton from '../../../interface/customButton/CustomButton'
 
 function PopularProducts() {
 	const firstFourCars = popularCarsData.slice(0, 4);
 
     return (
-        <PopularProductsWrapper>
-            <PopularProductsTitle>Popular Products</PopularProductsTitle>
-            <PopularProductsContainer>
+        <Container>
+            <Title>Popular Products</Title>
+            <CardContainer>
                 {
 					firstFourCars.map(car => (
 						<CarCard 
@@ -30,8 +29,8 @@ function PopularProducts() {
 						/>
 					))
 				}
-            </PopularProductsContainer>
-        </PopularProductsWrapper>
+            </CardContainer>
+        </Container>
     );
 }
 

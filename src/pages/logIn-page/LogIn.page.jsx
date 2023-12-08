@@ -1,9 +1,17 @@
+import { 
+	Container, 
+	Title, 
+	InputLabel, 
+	ButtonContainer 
+} from './LogIn.page.styled'
+
 import { useFormik } from 'formik';
-import * as Yup from 'yup';
+import * as Yup from 'yup'
+
 import Link from '@mui/material/Link';
 
-import LogInInput from '../../interface/logInInput/LogInInput'
-import LogInCheckbox from '../../interface/logInCheckbox/LogInCheckbox';
+import LogInInput from './logInInput/LogInInput'
+import LogInCheckbox from './logInCheckbox/LogInCheckbox'
 import ContainedButton from '../../interface/containedButton/ContainedButton'
 
 // Схема валідації для полів форми
@@ -22,14 +30,14 @@ const LogIn = () => {
 		validationSchema: validationSchema,
 		onSubmit: () => {
 			alert('hello');
-		},
-	});
+		}
+	})
 
 	return (
-		<LogInWrapper>
-			<LogInTitle>Log In</LogInTitle>
+		<Container>
+			<Title>Log In</Title>
 			<form onSubmit={formik.handleSubmit}>
-					<InputName>E-mail</InputName>
+					<InputLabel>E-mail</InputLabel>
 					<LogInInput
 						name="email"
 						type="email"
@@ -42,7 +50,7 @@ const LogIn = () => {
 							<div style={{ color: 'red' }}>{formik.errors.email}</div>
 						)
 					}
-					<InputName>Password</InputName>
+					<InputLabel>Password</InputLabel>
 					<LogInInput
 						name="password"
 						type="password"
@@ -57,12 +65,12 @@ const LogIn = () => {
 					}
 					<Link href="#" underline='none'>Forgot your password?</Link>
 					<LogInCheckbox />
-					<ButtonWrapper>
+					<ButtonContainer>
 						<ContainedButton name="Log In" background="red" />
-					</ButtonWrapper>
+					</ButtonContainer>
 			</form>
-		</LogInWrapper>
-	);
-};
+		</Container>
+	)
+}
 
 export default LogIn;

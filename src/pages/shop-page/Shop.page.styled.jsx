@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const ShopPageContainer = styled.div`
+const Container = styled.div`
 	width: 1280px;
 	display: flex;
 	justify-content: space-between;
@@ -16,8 +16,8 @@ const FilterContactsContainer = styled.div`
 	justify-content: space-between;
 `
 
-const OurShopPaginationContainer = styled.div`
+const PaginationContainer = styled.div`
 	height: 1334px;
 `
 
-export { ShopPageContainer, FilterContactsContainer, OurShopPaginationContainer }
+export { Container, FilterContactsContainer, PaginationContainer }

@@ -1,7 +1,7 @@
 import { Container } from './Header.styled'
-import HeaderLogo from '../../interface/headerLogo/HeaderLogo'
-import NavButtons from '../../components/navButtons/NavButtons'
-import AuthControls from '../../components/authControls/AuthControls'
+import HeaderLogo from './headerLogo/HeaderLogo'
+import NavButtons from '../navButtons/NavButtons'
+import AuthControls from './authControls/AuthControls'
 
 function Header() {
 	return (

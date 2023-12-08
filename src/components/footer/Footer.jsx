@@ -1,6 +1,6 @@
 import { Container } from './Footer.styled'
-import NavButtons from '../../components/navButtons/NavButtons'
-import footerLogo from '../../assets/footerImages/footer_logo.png'
+import NavButtons from '../navButtons/NavButtons'
+import footerLogo from '../../assets/images/footer/footer_logo.png'
 
 function Footer() {
 	return (

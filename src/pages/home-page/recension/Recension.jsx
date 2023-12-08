@@ -1,24 +1,24 @@
 import { 
-	RecensionWrapper, 
-	RecensionTextContainer, 
-	RecensionText, 
-	RecensionTextAuthor 
+	Container, 
+	TextContainer, 
+	Text, 
+	TextAuthor 
 } from './Recension.styled'
-import dannyCh from '../../../assets/responseImages/danny_churchman.png'
+import dannyCh from '../../../assets/images/response/danny_churchman.png'
 
 function Recension() {
 	return (
-		<RecensionWrapper>
-			<RecensionTextContainer>
-				<RecensionText>
+		<Container>
+			<TextContainer>
+				<Text>
 					"Unbelievable this is a dream come true, no way would I ever think I would own a car like this. What great blokes. Thank you very much! 5 star from me!!!"
-				</RecensionText>
-				<RecensionTextAuthor>
+				</Text>
+				<TextAuthor>
 					Danny Churchman
-				</RecensionTextAuthor>
-			</RecensionTextContainer>
+				</TextAuthor>
+			</TextContainer>
 			<img src={dannyCh} alt="danny churchman" />
-		</RecensionWrapper>
+		</Container>
 	);
 }
 

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const LogInWrapper = styled.div`
+const Container = styled.div`
 	width: 417px;
 	height: 340px;
 	margin: 140px auto;
@@ -9,7 +9,7 @@ const LogInWrapper = styled.div`
 	align-items: center;
 `
 
-const LogInTitle = styled.h2`
+const Title = styled.h2`
 	margin-top: 20px;
 	color: #252A34;
 	font-family: Rajdhani;
@@ -20,7 +20,7 @@ const LogInTitle = styled.h2`
 	letter-spacing: -0.4px;
 `
 
-const InputName = styled.p`
+const InputLabel = styled.p`
 	margin: 15px 0;
 	color: #343434;
 	font-family: Open Sans;
@@ -31,9 +31,9 @@ const InputName = styled.p`
 	letter-spacing: -0.2px;
 `
 
-const ButtonWrapper = styled.div`
+const ButtonContainer = styled.div`
 	width: fit-content;
 	margin: 15px auto;
 `
 
-export { LogInWrapper, LogInTitle, InputName, ButtonWrapper }
+export { Container, Title, InputLabel, ButtonContainer }

@@ -1,6 +1,6 @@
 import { Container } from './AuthControls.styled'
-import BorderlessButton from '../../interface/borderlessButton/BorderlessButton'
-import ContainedButton from '../../interface/containedButton/ContainedButton'
+import BorderlessButton from '../../../interface/borderlessButton/BorderlessButton'
+import ContainedButton from '../../../interface/containedButton/ContainedButton'
 import { Link } from 'react-router-dom'
 
 function AuthControls() {

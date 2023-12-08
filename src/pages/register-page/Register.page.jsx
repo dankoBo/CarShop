@@ -1,7 +1,26 @@
-import { useFormik } from 'formik';
+import { 
+	Container, 
+	Title, 
+	InputLabel, 
+	FirstLastNamesContainer, 
+	PasswordContainer, 
+	ButtonContainer, 
+	TermsPolicyContainer 
+} from './Register.page.styled'
+
+import { 
+	FormControlLabel, 
+	Radio, 
+	RadioGroup, 
+	FormControl, 
+	Link 
+} from '@mui/material'
+
+import { useFormik } from 'formik'
 import * as Yup from 'yup';
-import RegisterMultiInput from '../../interface/registerMultiInput/RegisterMultiInput'
-import RegisterEmailInput from '../../interface/registerEmailInput/RegisterEmailInput'
+
+import RegisterMultiInput from './registerMultiInput/RegisterMultiInput'
+import RegisterEmailInput from './registerEmailInput/RegisterEmailInput'
 import ContainedButton from '../../interface/containedButton/ContainedButton'
 
 function Register() {
@@ -29,12 +48,12 @@ function Register() {
   	});
 
 	return (
-		<RegisterWrapper>
-			<RegisterTitle>Create an Account</RegisterTitle>
+		<Container>
+			<Title>Create an Account</Title>
 			<form onSubmit={formik.handleSubmit}>
 				<FirstLastNamesContainer>
 					<div>
-						<InputName>First Name</InputName>
+						<InputLabel>First Name</InputLabel>
 						<RegisterMultiInput
 							id="firstName"
 							name="firstName"
@@ -46,7 +65,7 @@ function Register() {
 						/>
 					</div>
 					<div>
-						<InputName>Last Name</InputName>
+						<InputLabel>Last Name</InputLabel>
 						<RegisterMultiInput
 							id="lastName"
 							name="lastName"
@@ -59,7 +78,7 @@ function Register() {
 					</div>
 				</FirstLastNamesContainer>
 				<div>
-					<InputName>E-mail</InputName>
+					<InputLabel>E-mail</InputLabel>
 					<RegisterEmailInput
 						id="email"
 						name="email"
@@ -91,7 +110,7 @@ function Register() {
 				</FormControl>
 				<PasswordContainer>
 					<div>
-						<InputName>Password</InputName>
+						<InputLabel>Password</InputLabel>
 						<RegisterMultiInput
 							id="password"
 							name="password"
@@ -104,7 +123,7 @@ function Register() {
 						/>
 					</div>
 					<div>
-						<InputName>Confirm Password</InputName>
+						<InputLabel>Confirm Password</InputLabel>
 						<RegisterMultiInput
 							id="confirmPassword"
 							name="confirmPassword"
@@ -117,9 +136,9 @@ function Register() {
 						/>
 					</div>
 				</PasswordContainer>
-				<ButtonWrapper>
+				<ButtonContainer>
 					<ContainedButton name="Register" background="red" />
-				</ButtonWrapper>
+				</ButtonContainer>
 			</form>
 			<TermsPolicyContainer>
 				<p>
@@ -129,7 +148,7 @@ function Register() {
 					<Link href="#">Terms of Use</Link> and <Link href="#">Privacy Policy</Link>
 				</p>
 			</TermsPolicyContainer>
-		</RegisterWrapper>
+		</Container>
 	);
 };
 

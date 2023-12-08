@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const FilterWrapper = styled.div`
+const Container = styled.div`
 	width: 270px;
 	height: 478px;
 	border-radius: 10px;
@@ -57,4 +57,12 @@ const SearchFilterTitle = styled.h2`
 	letter-spacing: -0.2px;
 `
 
-export { FilterWrapper, PriceFilterContainer, PriceFilterTitle, BrandsFilterContainer, BrandsFilterTitle, SearchFilterContainer, SearchFilterTitle }
+export { 
+	Container, 
+	PriceFilterContainer, 
+	PriceFilterTitle, 
+	BrandsFilterContainer, 
+	BrandsFilterTitle, 
+	SearchFilterContainer, 
+	SearchFilterTitle 
+}

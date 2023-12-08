@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 
-const RecensionWrapper = styled.div`
+const Container = styled.div`
 	height: 400px;
 	margin-top: 50px;
 	background-color: rgba(52, 108, 217, 0.12);
 	display: flex;
 `
-const RecensionTextContainer = styled.div`
+const TextContainer = styled.div`
 	width: 640px;
 	height: 400px;
 	display: flex;
@@ -14,7 +14,7 @@ const RecensionTextContainer = styled.div`
 	justify-content: center;
 	align-items: center;
 `
-const RecensionText = styled.p`
+const Text = styled.p`
 	width: 400px;
 	height: 142px;
 	color: #343434;
@@ -24,7 +24,7 @@ const RecensionText = styled.p`
 	font-style: normal;
 	font-weight: 600;
 `
-const RecensionTextAuthor = styled.p`
+const TextAuthor = styled.p`
 	width: 400px;
 	height: 21px;
 	color: #343434;
@@ -36,4 +36,4 @@ const RecensionTextAuthor = styled.p`
 	text-transform: uppercase;
 `
 
-export { RecensionWrapper, RecensionTextContainer, RecensionText, RecensionTextAuthor }
+export { Container, TextContainer, Text, TextAuthor }

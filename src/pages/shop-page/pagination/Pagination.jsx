@@ -2,7 +2,7 @@ import { Container } from './Pagination.styled'
 import Pagination from '@mui/material/Pagination'
 import Stack from '@mui/material/Stack'
 
-function PaginationShop() {
+function PaginationStyled() {
 	return (
 		<Container>
 			<Stack spacing={2}>
@@ -12,4 +12,4 @@ function PaginationShop() {
 	);
 }
 
-export default PaginationShop
+export default PaginationStyled

@@ -1,31 +1,38 @@
-import { ContactsWrapper, TitleStyled, ContactContainerStyled, ContactInfoStyled, ContactWordStyled } from './ContactsStyled'
+import { 
+	Container, 
+	Title, 
+	ContactContainer, 
+	ContactInfo, 
+	ContactWord 
+} from './ContactsStyled'
+
 import PhonelinkRingIcon from '@mui/icons-material/PhonelinkRing';
 import DraftsIcon from '@mui/icons-material/Drafts';
 import AddHomeIcon from '@mui/icons-material/AddHome';
 
 function Contacts() {
 	return (
-		<ContactsWrapper>
-			<TitleStyled>Contacts Details</TitleStyled>
-			<ContactContainerStyled>
+		<Container>
+			<Title>Contacts Details</Title>
+			<ContactContainer>
 				<PhonelinkRingIcon />
-				<ContactInfoStyled>
-					<ContactWordStyled>Phone:</ContactWordStyled> 879-332-9375
-				</ContactInfoStyled>
-			</ContactContainerStyled>
-			<ContactContainerStyled>
+				<ContactInfo>
+					<ContactWord>Phone:</ContactWord> 879-332-9375
+				</ContactInfo>
+			</ContactContainer>
+			<ContactContainer>
 				<DraftsIcon />
-				<ContactInfoStyled>
-					<ContactWordStyled>Email:</ContactWordStyled> info@pixsellz.io
-				</ContactInfoStyled>
-			</ContactContainerStyled>
-			<ContactContainerStyled>
+				<ContactInfo>
+					<ContactWord>Email:</ContactWord> info@pixsellz.io
+				</ContactInfo>
+			</ContactContainer>
+			<ContactContainer>
 				<AddHomeIcon />
-				<ContactInfoStyled>
-					<ContactWordStyled>Adress:</ContactWordStyled> 456 Hagenes Gardens Suite 808
-				</ContactInfoStyled>
-			</ContactContainerStyled>
-		</ContactsWrapper>
+				<ContactInfo>
+					<ContactWord>Adress:</ContactWord> 456 Hagenes Gardens Suite 808
+				</ContactInfo>
+			</ContactContainer>
+		</Container>
 	);
 }
 

@@ -1,23 +1,23 @@
 import { 
-	BannerWrapper, 
+	Container, 
 	TitleWithButton, 
-	BannerTitle, 
-	BannerImageWrapper, 
+	Title, 
+	ImageContainer, 
 	TitleRed 
 } from './Banner.styled'
 import ContainedButton from '../../../interface/containedButton/ContainedButton'
 
 function Banner() {
 	return (
-		<BannerWrapper>
+		<Container>
 			<TitleWithButton>
-				<BannerTitle>
+				<Title>
 					Could you be our <TitleRed>next winner?</TitleRed>
-				</BannerTitle>
+				</Title>
 				<ContainedButton name="Enter now" />
 			</TitleWithButton>
-			<BannerImageWrapper />
-		</BannerWrapper>
+			<ImageContainer />
+		</Container>
 	)
 }
 

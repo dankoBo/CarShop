@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const HowItWorksWrapper = styled.div`
+const Container = styled.div`
 	width: 1170px;
 	height: 357px;
 	margin: 0 auto;
@@ -9,7 +9,7 @@ const HowItWorksWrapper = styled.div`
 	justify-content: space-between;
 `
 
-const HowItWorksTitle = styled.h2`
+const Title = styled.h2`
 	width: 301px;
 	color: #343434;
 	margin: 0 auto;
@@ -19,9 +19,9 @@ const HowItWorksTitle = styled.h2`
 	font-weight: 700;
 `
 
-const HowItWorksSteps = styled.div`
+const StepsContainer = styled.div`
 	display: flex;
 	justify-content: space-between;
 `
 
-export { HowItWorksWrapper, HowItWorksTitle, HowItWorksSteps }
+export { Container, Title, StepsContainer }

@@ -1,4 +1,4 @@
-import { CheckboxContainer } from './BrandsFilter.styled'
+import { Container } from './BrandsFilter.styled'
 import FormControlLabel from '@mui/material/FormControlLabel'
 import Checkbox from '@mui/material/Checkbox'
 
@@ -8,7 +8,7 @@ function BrandsFilter({ setChecked, checked }) {
     };
 
 	return (
-		<CheckboxContainer>
+		<Container>
 			<FormControlLabel
 				control={<Checkbox onChange={handleChange} checked={checked['Audi']} name='Audi' />} 
 				label="Audi"
@@ -25,7 +25,7 @@ function BrandsFilter({ setChecked, checked }) {
 				control={<Checkbox onChange={handleChange} checked={checked['Porsche']} name='Porsche' />} 
 				label="Porsche" 
 			/>
-		</CheckboxContainer>
+		</Container>
 	);
 }
 

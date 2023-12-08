@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import bannerImage from '../../../assets/bannerImages/banner_car.png'
+import bannerImage from '../../../assets/images/banner/banner_car.png'
 
-const BannerWrapper = styled.div`
+const Container = styled.div`
 	position: relative;
 	width: 1170px;
 	height: 494px;
@@ -27,7 +27,7 @@ const TitleRed = styled.span`
 	font-weight: 700;
 `
 
-const BannerTitle = styled.h2`
+const Title = styled.h2`
 	width: 448px;
 	height: 129px;
 	color: #343434;
@@ -36,7 +36,7 @@ const BannerTitle = styled.h2`
 	font-style: normal;
 	font-weight: 700;
 `
-const BannerImageWrapper = styled.div`
+const ImageContainer = styled.div`
 	position: absolute;
 	right: 0;
 	width: 882px;
@@ -46,4 +46,4 @@ const BannerImageWrapper = styled.div`
 	z-index: 1;
 `
 
-export { BannerWrapper, BannerTitle, TitleRed, BannerImageWrapper, TitleWithButton }
+export { Container, Title, TitleRed, ImageContainer, TitleWithButton }

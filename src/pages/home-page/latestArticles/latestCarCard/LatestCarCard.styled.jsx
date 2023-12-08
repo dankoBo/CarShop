@@ -6,7 +6,7 @@ const CardStyled = styled(Card)`
 	height: 288px;
 `
 
-const CarBrandStyled = styled.h2`
+const CarBrand = styled.h2`
 	width: 180px;
 	color: #252A34;
 	font-family: Rajdhani;
@@ -15,7 +15,7 @@ const CarBrandStyled = styled.h2`
 	font-weight: 700;
 `
 
-const CarDateStyled = styled.p`
+const CarDate = styled.p`
 	width: 125px;
 	margin-top: 7px;
 	color: #343434;
@@ -25,4 +25,4 @@ const CarDateStyled = styled.p`
 	font-weight: 400;
 `
 
-export { CarBrandStyled, CarDateStyled, CardStyled }
+export { CardStyled, CarBrand, CarDate }

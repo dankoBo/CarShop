@@ -6,7 +6,7 @@ const Container = styled.div`
 	text-align: center;
 `
 
-const HowToStepTitle = styled.h2`
+const Title = styled.h2`
 	margin: 30px 0;
 	color: #343434;
 	text-align: center;
@@ -16,7 +16,7 @@ const HowToStepTitle = styled.h2`
 	font-weight: 700;
 `
 
-const HowToStepSubtitle = styled.p`
+const Subtitle = styled.p`
 	color: #343434;
 	font-family: Open Sans;
 	font-size: 16px;
@@ -24,4 +24,4 @@ const HowToStepSubtitle = styled.p`
 	font-weight: 400;
 `
 
-export { Container, HowToStepTitle, HowToStepSubtitle }
+export { Container, Title, Subtitle }

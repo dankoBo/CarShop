@@ -1,12 +1,16 @@
-import { LatestArticlesWrapper, LatestArticleTitle, LatestArticlesContainer } from './LatestArticles.styled'
-import LatestCarCard from '../../../components/latestCarCard/LatestCarCard';
+import { 
+	Container, 
+	Title, 
+	CardsContainer 
+} from './LatestArticles.styled'
+import LatestCarCard from './latestCarCard/LatestCarCard';
 import { latestCarsData } from '../../../data/carsData'
 
 function LatestArticles() {
 	return (
-		<LatestArticlesWrapper>
-			<LatestArticleTitle>Latest articles</LatestArticleTitle>
-			<LatestArticlesContainer>
+		<Container>
+			<Title>Latest articles</Title>
+			<CardsContainer>
 				{
 					latestCarsData.map(car => (
 							<LatestCarCard 
@@ -18,8 +22,8 @@ function LatestArticles() {
 						)
 					)
 				}
-			</LatestArticlesContainer>
-		</LatestArticlesWrapper>
+			</CardsContainer>
+		</Container>
 	);
 }
 

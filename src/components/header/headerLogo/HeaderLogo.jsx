@@ -1,5 +1,5 @@
 import { LogoContainerStyled } from './HeaderLogo.styled'
-import logoImage from '../../assets/headerImages/header_logo.png'
+import logoImage from '../../../assets/images/header/header_logo.png'
 
 
 function HeaderLogo() {
