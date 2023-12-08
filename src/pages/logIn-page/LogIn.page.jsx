@@ -5,7 +5,6 @@ import Link from '@mui/material/Link';
 import LogInInput from '../../interface/logInInput/LogInInput'
 import LogInCheckbox from '../../interface/logInCheckbox/LogInCheckbox';
 import ContainedButton from '../../interface/containedButton/ContainedButton'
-import { LogInWrapper, LogInTitle, InputName, ButtonWrapper } from './LogIn.page.styled';
 
 // Схема валідації для полів форми
 const validationSchema = Yup.object().shape({
