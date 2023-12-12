@@ -1,7 +1,7 @@
-import { TextFieldStyled } from './PriceInputFilter.styled'
+import { TextFieldStyled } from './PriceInput.styled'
 
 
-function PriceInputFilter(props) {
+function PriceInput(props) {
 	return (
 		<div>
 			<TextFieldStyled
@@ -17,4 +17,4 @@ function PriceInputFilter(props) {
 	);
 }
 
-export default PriceInputFilter;
+export default PriceInput;

@@ -1,8 +1,8 @@
-import { Container } from './BrandsFilter.styled'
+import { Container } from './BrandFilter.styled'
 import FormControlLabel from '@mui/material/FormControlLabel'
 import Checkbox from '@mui/material/Checkbox'
 
-function BrandsFilter({ setChecked, checked }) {
+function BrandFilter({ setChecked, checked }) {
     const handleChange = (event) => {
         setChecked({ ...checked, [event.target.name]: event.target.checked });
     };
@@ -29,4 +29,4 @@ function BrandsFilter({ setChecked, checked }) {
 	);
 }
 
-export default BrandsFilter;
+export default BrandFilter;

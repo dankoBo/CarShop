@@ -5,7 +5,7 @@ import {
 } from './PopularProducts.styled'
 import CarCard from '../../../components/carCard/CarCard'
 import { popularCarsData } from '../../../data/carsData'
-import CustomButton from '../../../interface/customButton/CustomButton'
+import CustomButton from './customButton/CustomButton'
 
 function PopularProducts() {
 	const firstFourCars = popularCarsData.slice(0, 4);

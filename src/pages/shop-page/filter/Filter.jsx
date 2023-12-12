@@ -1,32 +1,32 @@
 import { 
 	Container, 
-	PriceFilterContainer, 
+	PriceContainer, 
 	PriceFilterTitle,  
 	BrandsFilterTitle, 
-	BrandsFilterContainer, 
-	SearchFilterContainer, 
+	BrandsContainer, 
+	SearchContainer, 
 	SearchFilterTitle 
 } from './FilterStyled'
 
-import BrandsFilter from './brandsFilter/BrandsFilter';
-import SearchInputFilter from './searchInputFilter/SearchInputFilter';
-import PriceFilterInputContainer from '../../../components/priceFilterInputContainer/PriceFilterInputContainer'
+import BrandFilter from './brandFilter/BrandFilter';
+import SearchFilter from './searchFilter/SearchFilter';
+import PriceFilter from './priceFilter/PriceFilter'
 
 function Filter( {setMinPrice, setMaxPrice, checked, setChecked, searchTerm, setSearchTerm} ) {
 	return (
 		<Container>
-			<PriceFilterContainer>
+			<PriceContainer>
 				<PriceFilterTitle>Price</PriceFilterTitle>
-				<PriceFilterInputContainer setMinPrice={setMinPrice} setMaxPrice={setMaxPrice}/>
-			</PriceFilterContainer>
-			<BrandsFilterContainer>
+				<PriceFilter setMinPrice={setMinPrice} setMaxPrice={setMaxPrice}/>
+			</PriceContainer>
+			<BrandsContainer>
 				<BrandsFilterTitle>Brands</BrandsFilterTitle>
-				<BrandsFilter checked={checked} setChecked={setChecked} />
-			</BrandsFilterContainer>
-			<SearchFilterContainer>
+				<BrandFilter checked={checked} setChecked={setChecked} />
+			</BrandsContainer>
+			<SearchContainer>
 				<SearchFilterTitle>Search</SearchFilterTitle>
-				<SearchInputFilter searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-			</SearchFilterContainer>
+				<SearchFilter searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+			</SearchContainer>
 		</Container>
 	);
 }

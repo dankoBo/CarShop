@@ -1,5 +1,5 @@
 import { ButtonsContainer } from './NavButtons.styled'
-import BorderlessButton from '../../interface/borderlessButton/BorderlessButton';
+import BorderlessButton from '../borderlessButton/BorderlessButton'
 import { Link } from 'react-router-dom'
 
 function NavButtons(props) {

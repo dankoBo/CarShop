@@ -21,7 +21,7 @@ import * as Yup from 'yup';
 
 import RegisterMultiInput from './registerMultiInput/RegisterMultiInput'
 import RegisterEmailInput from './registerEmailInput/RegisterEmailInput'
-import ContainedButton from '../../interface/containedButton/ContainedButton'
+import ContainedButton from '../../components/containedButton/ContainedButton'
 
 function Register() {
 	const formik = useFormik({

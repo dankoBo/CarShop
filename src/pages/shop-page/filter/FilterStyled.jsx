@@ -10,7 +10,7 @@ const Container = styled.div`
 	flex-direction: column;
 	justify-content: space-between;
 `
-const PriceFilterContainer = styled.div`
+const PriceContainer = styled.div`
 	height: 80px;
 	display: flex;
 	flex-direction: column;
@@ -35,13 +35,13 @@ const BrandsFilterTitle = styled.h2`
 	letter-spacing: -0.2px;
 `
 
-const BrandsFilterContainer = styled.div`
+const BrandsContainer = styled.div`
 	height: 200px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 `
-const SearchFilterContainer = styled.div`
+const SearchContainer = styled.div`
 	height: 70px;
 	display: flex;
 	flex-direction: column;
@@ -59,10 +59,10 @@ const SearchFilterTitle = styled.h2`
 
 export { 
 	Container, 
-	PriceFilterContainer, 
+	PriceContainer, 
 	PriceFilterTitle, 
-	BrandsFilterContainer, 
+	BrandsContainer, 
 	BrandsFilterTitle, 
-	SearchFilterContainer, 
+	SearchContainer, 
 	SearchFilterTitle 
 }

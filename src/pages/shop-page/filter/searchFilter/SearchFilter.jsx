@@ -1,6 +1,6 @@
-import { TextFieldStyled } from './SearchInputFilter.styled';
+import { TextFieldStyled } from './SearchFilter.styled';
 
-function SearchInputFilter({ searchTerm, setSearchTerm }) {
+function SearchFilter({ searchTerm, setSearchTerm }) {
 	return (
 			<TextFieldStyled
 				id="outlined-basic"
@@ -10,7 +10,7 @@ function SearchInputFilter({ searchTerm, setSearchTerm }) {
 				value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
 			/>
-	);
+	)
 }
 
-export default SearchInputFilter;
+export default SearchFilter

@@ -1,6 +1,6 @@
 import { ShopCarsWrapper, ShopCarsContainer, ShopCarsTitle} from './ShopCarsStyled'
 import CarCard from '../../../components/carCard/CarCard'
-import ContainedButton from '../../../interface/containedButton/ContainedButton'
+import ContainedButton from '../../../components/containedButton/ContainedButton'
 
 
 function ShopCars(props) {

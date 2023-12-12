@@ -12,7 +12,7 @@ import Link from '@mui/material/Link';
 
 import LogInInput from './logInInput/LogInInput'
 import LogInCheckbox from './logInCheckbox/LogInCheckbox'
-import ContainedButton from '../../interface/containedButton/ContainedButton'
+import ContainedButton from '../../components/containedButton/ContainedButton'
 
 // Схема валідації для полів форми
 const validationSchema = Yup.object().shape({

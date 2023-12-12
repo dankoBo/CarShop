@@ -5,7 +5,7 @@ import {
 	ImageContainer, 
 	TitleRed 
 } from './Banner.styled'
-import ContainedButton from '../../../interface/containedButton/ContainedButton'
+import ContainedButton from '../../../components/containedButton/ContainedButton'
 
 function Banner() {
 	return (
